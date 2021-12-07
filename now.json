@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "name": "COIVD-19 API INDONESIA v2",
+  "builds": [
+    {
+      "src": "app.js",
+      "use": "@now/node-server"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/.*",
+      "dest": "app.js",
+      "headers": { "cache-control": "public, s-maxage=60" }
+    }
+  ],
+  "regions": [
+      "sin1"
+  ],
+  "alias": [
+    "indonesiapicovid19-v2"
+  ]
+}
