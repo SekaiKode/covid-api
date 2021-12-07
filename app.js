@@ -31,7 +31,7 @@ app.get('/api', (req, res) => {
     const url = `${req.protocol}://${req.hostname}${req.hostname == 'localhost' ? `:${PORT}` : ''}`;
     res.json({
         "message": "Selamat Datang di API COVID-19 INDONESIA - Enjoy My Work",
-        "projects source": "https://github.com/Reynadi531/api-covid19-indonesia-v2",
+        "projects source": "https://github.com/SekaiKode/covid-api",
         "endpoints": {
             "kumulatif": [
                 `${url}/api/indonesia`,
