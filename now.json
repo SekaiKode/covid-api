@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "COIVD-19 API INDONESIA v2",
+  "name": "COIVD-19 API INDONESIA",
   "builds": [
     {
       "src": "app.js",
@@ -18,6 +18,6 @@
       "sin1"
   ],
   "alias": [
-    "indonesiapicovid19-v2"
+    "covid-api"
   ]
 }
